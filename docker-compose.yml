@@ -10,8 +10,6 @@ services:
     ports:
       - '${APP_PORT}:8888'
       - '${APP_GUI_PORT}:6006'
-    environment:
-      - SUITECRM_DATABASE_HOST=mysql
     volumes:
       - tensorflow:/tf/notebooks
 
