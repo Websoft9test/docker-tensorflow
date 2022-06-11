@@ -30,8 +30,5 @@
       "description_en": "Web-GUI jupyter tool",
       "required": "Y"
     }
-  ],
-
- 
-
+  ]
 }
