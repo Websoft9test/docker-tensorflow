@@ -8,6 +8,7 @@ services:
     image: tensorflow/tensorflow:${APP_VERSION}
     container_name: ${APP_NAME}
     ports:
+      # tensorboard port is 6006, but you need to start it on container by yourself 
       - '${APP_GUI_PORT}:8888'
       - '${APP_PORT}:6006'
     volumes:
